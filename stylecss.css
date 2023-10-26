@@ -1,0 +1,179 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Roboto,Arial,sans-serif;
+  line-height: 1.25rem;
+  font-size: .700rem;
+  letter-spacing: .0142857143em;
+  font-weight:400;
+  color: rgb(60,64,67);
+}
+h3{
+  color:violet;
+}
+#image{
+  margin: 0px;
+  padding: 10px;
+  padding-left: 100px;
+  height:100px;
+  width: 35%;
+  float: left;
+  align-items: right;
+
+}
+.profile{
+  width: 100px;
+  height: 100px;
+  border-radius: 55%;
+  object-fit: cover;
+  box-shadow: 10px 10px 8px #888888;
+}
+header{
+  margin: 0px;
+  padding: 10px;
+  height:100px;
+  width: 30%;
+  float: left;
+  align-items: center;
+  font-size: 20px;
+
+}
+date{
+  margin: 0px;
+  padding: 10px;
+  height:100px;
+  width: 20%;
+  float:right;
+
+}
+.time{
+  color:white;
+  background-image: linear-gradient(to right, indigo, violet);
+}
+.time:hover{
+  background-color: yellow;
+}
+nav{
+  width: 100%;
+  clear: both;
+  text-align: center;
+  padding-top: 10px;
+  color:#888888;
+  height: 50px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+nav ul{
+list-style-type: none;
+}
+nav ul li{
+  padding: 5rem;
+  display:inline;
+  color: azure;
+  font-size: 20px;
+}
+nav ul li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.profileimage{
+  width: 100px;
+  height: 100px;
+  border-radius: 55%;
+  object-fit: cover;
+  box-shadow: 10px 10px 8px #888888;
+}
+#section{
+  padding:10px;
+  border: 1px solid;
+  margin: 0 2px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 8px #888888;
+  width:98%;
+  height:350px;
+  font-size: 20px;
+ padding-left: 10px;
+  }
+  .detail{
+    margin: opx;
+    padding: 10px;
+    padding-left: 50px;
+    height: 300px;
+    width:40%;
+    float:right;
+    color: crimson;
+  }
+  aside{
+    margin: opx;
+    padding: 10px;
+    padding-left: 50px;
+    width:50%;
+    text-align: center;
+    float:left;
+    color:#3B5998;
+  }
+  
+  .pro{
+     color: black;
+  }
+
+  #about{
+    padding:0rem;
+    margin: 0 2px;
+
+  }
+  #contact{
+    top:1000px;
+    position: relative;
+  }
+
+.fa {
+    padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+ footer{
+  clear:both;
+  margin: 0 0px;
+  padding:10px;
+  padding-top: 20px;
+  float: center;
+  height: 100px;
+  background-color:black;
+  text-align: center;
+  font-size: 20px;
+ }
+ #scroll{
+  float:right;
+  padding-right: 10px;
+  position: relative;
+  height: 40px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right,green,yellow);
+ }
+ .button{
+  padding-right: 70px;
+
+ }
+ 
